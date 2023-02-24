@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gee-chache/day3-http-server/geecache"
+	"github.com/ATao13/gee-chache/day3-http-server/geecache"
 	"log"
 	"net/http"
 )
