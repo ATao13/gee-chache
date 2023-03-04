@@ -25,5 +25,4 @@ func main() {
 	peers := geecache.NewHttpPool(addr)
 	log.Println("geecache is running at", addr)
 	log.Fatal(http.ListenAndServe(addr, peers))
-
 }
